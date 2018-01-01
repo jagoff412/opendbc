@@ -40,3 +40,8 @@ BO_ 916 Start/Stop: 8 XXX
 
 BO_ 239 NEW_MSG_1: 8 XXX
  SG_ Brake Force? : 23|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 217 NEW_MSG_2: 8 XXX
+ SG_ Accelerator_1 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ Accelerator_2 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ Accelerator_pressed : 63|8@0+ (1,0) [0|255] "" XXX

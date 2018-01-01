@@ -33,7 +33,10 @@ NS_ :
 
 BS_:
 
-BU_: 
+BU_: XXX
 
 
 BO_ 916 Start/Stop: 8 XXX
+
+BO_ 239 NEW_MSG_1: 8 XXX
+ SG_ Brake Force? : 23|8@0+ (1,0) [0|255] "" XXX

@@ -81,4 +81,4 @@ BO_ 256 NEW_MSG_9: 8 XXX
  SG_ ePower : 32|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 417 NEW_MSG_10: 8 XXX
- SG_ Speed : 16|16@1+ (0.1,0) [0|65535] "MPH" XXX
+ SG_ Speed : 16|16@1+ (0.015625,0) [0|65535] "KPH" XXX

@@ -76,3 +76,6 @@ BO_ 518 NEW_MSG_7: 8 XXX
 BO_ 709 NEW_MSG_8: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 15|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 256 NEW_MSG_9: 8 XXX
+ SG_ Speed : 39|8@0+ (1,0) [0|255] "" XXX

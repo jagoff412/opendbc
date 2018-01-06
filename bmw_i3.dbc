@@ -44,9 +44,8 @@ BO_ 239 NEW_MSG_1: 8 XXX
  SG_ NEW_SIGNAL_5 : 39|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 217 NEW_MSG_2: 8 XXX
- SG_ Accelerator_1 : 23|8@0+ (1,0) [0|255] "" XXX
- SG_ Accelerator_2 : 31|8@0+ (1,0) [0|255] "" XXX
  SG_ Accelerator_pressed : 63|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 16|16@1+ (1,0) [0|65535] "" XXX
 
 BO_ 165 NEW_MSG_3: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
@@ -78,7 +77,10 @@ BO_ 709 NEW_MSG_8: 8 XXX
  SG_ NEW_SIGNAL_2 : 15|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 256 NEW_MSG_9: 8 XXX
- SG_ ePower : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ ePower : 39|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 417 NEW_MSG_10: 8 XXX
- SG_ Speed : 16|16@1+ (0.015625,0) [0|65535] "KPH" XXX
+ SG_ Speed : 16|16@1+ (0.1,0) [0|65535] "MPH" XXX
+
+BO_ 770 NEW_MSG_11: 8 XXX
+ SG_ Steering Wheel Angle : 16|16@1+ (0.002747,-90) [0|65535] "DEG" XXX

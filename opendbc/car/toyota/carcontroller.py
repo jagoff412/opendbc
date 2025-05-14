@@ -80,7 +80,7 @@ class CarController(CarControllerBase, SecOCLongCarController):
     self.secoc_prev_reset_counter = 0
 
     #Invert ACC Increments
-    self.invert_acc_increments = Params().get_bool("FlipAccIncrements")
+    self.invert_acc_increments = self.CP_SP.customAccControl.mode == structs.CarParamsSP.CustomAccControl.Mode.reverse
 
   def update(self, CC, CC_SP, CS, now_nanos):
     actuators = CC.actuators
